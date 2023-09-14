@@ -3,7 +3,7 @@ import openai
 max_num_layers = 10
 max_num_classes = 10
 
-openai.api_key = "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"  # Replace with your key
+# openai.api_key = ""  # Replace with your key
 
 def predict(message, history):
     history_openai_format = []
